@@ -1,0 +1,47 @@
+<!--
+ +-------------------------------------------+
+ |=============< SNAKE GAME >================|
+ |                                           |
+ |   AUTHOR: IMON RAJ                        |
+ |   JADAVPUR UNIVERSITY                     |
+ |   COMPUTER SCIENCE AND ENGINEERING DEPT.  |
+ |   LANGUAGE USED - HTML, CSS, JAVASCRIPT   |
+ |   PROJECT CREATION TIME - DECEMBER 2022   |
+ |                                           |
+ +-------------------------------------------+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="score-container">
+            <p>Score:
+                <span id="score">0</span>
+            </p>
+        </div>
+        <div class="canvas-container">
+            <canvas class="main-canvas"></canvas>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="game-over-container">
+        Game Over !<br> Your Score
+        <div id="game-over-final-score">
+            999
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
