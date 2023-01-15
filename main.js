@@ -28,6 +28,8 @@ canvas.style.width = "400px";
 canvas.style.height = "400px";
 
 
+//testing something related to branching
+
 //some references to the DOM elements
 const overlay = document.querySelector('.overlay');
 const gameOverContainer = document.querySelector('.game-over-container');
