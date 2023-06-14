@@ -134,6 +134,7 @@ class Snake {
         }, dur * Math.floor(dim / 1.2));
     }
 
+    //
     // detects whether the snake head
     // does any collision to any of the
     // food items
